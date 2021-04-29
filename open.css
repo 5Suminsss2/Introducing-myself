@@ -1,0 +1,35 @@
+body {
+  background-image: url(./img/moutain.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Black Han Sans", sans-serif;
+}
+
+.center_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px;
+}
+/*
+.center_box span {
+  color: ivory;
+}
+*/
+.center_box img {
+  width: 150px;
+  height: 150px;
+
+  border-radius: 70%;
+  border-color: rgb(59, 55, 55);
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(98, 100, 98);
+}
+
+.center_box img:hover {
+  transition: all ease 1s;
+  transform: rotate(360deg);
+}
