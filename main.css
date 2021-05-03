@@ -1,0 +1,115 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background-image: url("./img/milkyway.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+footer {
+  position: sticky;
+  left: 0;
+  bottom: 0;
+  top: 100%;
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+
+  color: white;
+
+  background: rgb(45, 45, 51);
+  opacity: 0.8;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+/*
+.logos section,
+.logos section p {
+  font-size: 4rem;
+  color: aliceblue;
+  font-family: "Nanum Myeongjo", serif;
+}
+
+*/
+
+.logos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 30px;
+  height: 620px;
+}
+
+.logo_name {
+  margin-left: 10px;
+}
+.logo_size {
+  width: 60px;
+}
+.start_button {
+  width: 30px;
+}
+.search_style {
+  background-color: white;
+}
+.rocket_icons {
+  color: rgb(240, 234, 234);
+  padding-top: 3px;
+}
+.clock_style {
+  text-align: right;
+  font-size: large;
+}
+
+.profile_style {
+  color: #be4bdb;
+}
+
+.profile_center {
+  margin-left: 3px;
+}
+
+.project_style {
+  color: #82c91e;
+  margin-left: 5px;
+}
+
+.tools_style {
+  color: #e96228;
+  margin-left: 10px;
+}
+
+.tools_center {
+  margin-left: 8px;
+}
+
+.email_style {
+  margin-left: 8px;
+  color: white;
+}
+
+.md-60 {
+  font-size: 60px;
+}
+
+@media screen and (max-width: 768px) {
+  .logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-left: 0;
+    height: 620px;
+  }
+}
