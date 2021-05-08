@@ -24,12 +24,12 @@ footer {
   opacity: 0.8;
 }
 
-a {
+.logo_size a {
   text-decoration: none;
   color: white;
 }
 
-a:hover {
+.logo_size a:hover {
   color: white;
 }
 
@@ -47,8 +47,8 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  margin-left: 30px;
-  height: 620px;
+  padding-left: 30px;
+  height: 640px;
 }
 
 .logo_name {
@@ -110,6 +110,7 @@ a:hover {
     justify-content: space-around;
     align-items: flex-end;
     margin-left: 0;
-    height: 620px;
+    height: 90vh;
+    padding-left: 0;
   }
 }
