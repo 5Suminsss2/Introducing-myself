@@ -10,17 +10,16 @@ body {
 }
 
 footer {
-  position: sticky;
+  position: fixed;
   left: 0;
   bottom: 0;
-  top: 100%;
-  width: 100%;
+  width: 105%;
   padding: 10px 0;
   text-align: center;
 
   color: white;
 
-  background: rgb(45, 45, 51);
+  background: rgb(51, 45, 45);
   opacity: 0.8;
 }
 

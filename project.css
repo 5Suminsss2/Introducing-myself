@@ -1,0 +1,68 @@
+body {
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+.project_space {
+  background-color: ghostwhite;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 80%;
+  height: 91vh;
+}
+
+.project_body {
+  width: 100%;
+  background-color: ghostwhite;
+}
+
+.project_title {
+  background-color: ghostwhite;
+  font-size: 50px;
+  color: white;
+  margin-top: 18px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: "Black Han Sans", sans-serif;
+  text-shadow: -2px 0 #000, 0 2px #000, 2px 0 #000, 0 -2px #000;
+}
+
+.card_img:hover {
+  opacity: 0.5;
+  background-color: black;
+}
+
+hr {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+h5 {
+  margin-bottom: 5px;
+  color: white;
+  text-shadow: -2px 0 #000, 0 2px #000, 2px 0 #000, 0 -2px #000;
+  font-family: "Black Han Sans", sans-serif;
+}
+
+.project_image {
+  margin-left: 5px;
+  margin-right: 5px;
+  overflow-y: scroll;
+  height: 72vh;
+  -ms-overflow-style: none;
+}
+
+.project_image::-webkit-scrollbar {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .project_image {
+    height: 68vh;
+  }
+  .tools_space {
+    width: 100%;
+  }
+}

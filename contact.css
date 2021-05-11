@@ -3,15 +3,17 @@ body {
 }
 
 .contact_title {
+  color: white;
   font-size: 50px;
   margin-top: 10px;
   margin-bottom: 10px;
   font-family: "Black Han Sans", sans-serif;
+  text-shadow: -2px 0 #000, 0 2px #000, 2px 0 #000, 0 -2px #000;
 }
 
 .contact_arrange {
   width: 100%;
-  background-color: #fff5ee;
+  background-color: ghostwhite;
   margin-top: 25vh;
 }
 
