@@ -1,0 +1,106 @@
+p {
+  margin: 0;
+}
+
+.top_background {
+  background-image: url(./img/dark\ sky.jpg);
+  border-bottom-left-radius: 20%;
+  border-bottom-right-radius: 20%;
+}
+.top_background_size {
+  width: 150px;
+  height: 150px;
+}
+.profile_img {
+  width: 150px;
+  height: 150px;
+  border-radius: 70%;
+  border-color: rgb(59, 55, 55);
+  text-align: center;
+  z-index: 1;
+}
+.rocket_img {
+  width: 50px;
+  height: 50px;
+  bottom: 0;
+  text-align: center;
+  z-index: 1;
+}
+.card {
+  padding: 15px;
+  background: #fff;
+  /* max-width: 360px; */
+  width: 100%;
+
+  border-radius: 20px;
+}
+
+.shadow {
+  box-shadow: 0 7px 30px -10px rgba(150, 170, 180, 0.5);
+}
+
+.bottom_background {
+  display: flex;
+}
+.bottom_background2 {
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .bottom_background {
+    display: flex;
+    flex-direction: column;
+  }
+  .bottom_background2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .card {
+    width: auto;
+  }
+
+  .profile_image {
+    overflow-y: scroll;
+    height: 53vh;
+
+    -ms-overflow-style: none;
+  }
+  .rocket_outline {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .rocket_img {
+    margin-top: 10px;
+  }
+}
+@media (min-width: 901px) and (max-width: 991px) {
+  .rocket_img {
+    margin-top: 30px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .rocket_img {
+    margin-top: 30px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .rocket_img {
+    margin-top: 30px;
+  }
+}
+
+#floating {
+  animation: ani 1s infinite alternate;
+}
+@keyframes ani {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(0, 10px);
+  }
+}
