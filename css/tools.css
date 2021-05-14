@@ -107,6 +107,7 @@ h1 {
   }
   .tools_space {
     width: 100%;
+    height: 70em;
   }
   .dots {
     display: none;

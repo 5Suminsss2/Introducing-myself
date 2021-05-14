@@ -159,11 +159,15 @@ footer {
     height: 90vh;
     padding-left: 0;
   }
+
   .InputAddOn-field,
   .InputAddOn-item {
     height: 40px;
   }
   .InputAddOn-field {
     width: 30vw;
+  }
+  .logo_size {
+    margin-bottom: 1em;
   }
 }
