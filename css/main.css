@@ -12,7 +12,7 @@ footer {
   position: fixed;
   left: 0;
   bottom: 0;
-  width: 105%;
+  width: 100%;
   padding: 10px 0;
   text-align: center;
 
@@ -57,10 +57,12 @@ footer {
   margin-left: 10px;
 }
 .logo_size {
-  width: 60px;
+  /* width: 60px; */
 }
 .start_button {
   width: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 .search_style {
   background-color: white;
@@ -70,6 +72,7 @@ footer {
   padding-top: 3px;
 }
 .clock_style {
+  padding-right: 15px;
   text-align: right;
   font-size: large;
 }
@@ -97,12 +100,53 @@ footer {
 }
 
 .email_style {
-  margin-left: 8px;
+  margin-left: 6px;
   color: white;
 }
 
 .md-60 {
   font-size: 60px;
+}
+
+.InputAddOn {
+  display: flex;
+}
+
+.InputAddOn-field {
+  flex: 1;
+  /* field styles */
+}
+
+.InputAddOn-field {
+  border: 1px solid rgba(173, 172, 172, 0.199);
+
+  padding: 0.5em 0.75em;
+
+  padding-left: 8px;
+
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.InputAddOn-item {
+  padding: 0.5em 0.75em;
+
+  padding-left: 8px;
+
+  background-color: rgb(255, 255, 255);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+
+  background-color: #ebebebf6;
+  color: #666666;
+  font: inherit;
+  font-weight: normal;
+}
+.footer_div {
+  display: flex;
+  justify-content: space-between;
+}
+.footer1 {
+  display: flex;
 }
 
 @media screen and (max-width: 768px) {
@@ -114,5 +158,12 @@ footer {
     margin-left: 0;
     height: 90vh;
     padding-left: 0;
+  }
+  .InputAddOn-field,
+  .InputAddOn-item {
+    height: 40px;
+  }
+  .InputAddOn-field {
+    width: 30vw;
   }
 }

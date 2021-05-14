@@ -24,28 +24,28 @@ body {
   margin-top: 0;
 }
 
-.InputAddOn {
+.InputAddOn_contact {
   display: flex;
   margin-bottom: 1.5em;
   justify-content: center;
 }
 
-.InputAddOn-field:not(:first-child) {
+.InputAddOn-field_contact:not(:first-child) {
   border-left: 0;
 }
-.InputAddOn-field:not(:last-child) {
+.InputAddOn-field_contact:not(:last-child) {
   border-right: 0;
 }
 
-.InputAddOn-item {
+.InputAddOn-item_contact {
   background-color: #ebebebf6;
   color: #666666;
   font: inherit;
   font-weight: normal;
 }
 
-.InputAddOn-field,
-.InputAddOn-item {
+.InputAddOn-field_contact,
+.InputAddOn-item_contact {
   border: 1px solid rgba(173, 172, 172, 0.199);
   padding: 0.5em 0.75em;
 
@@ -55,13 +55,13 @@ input:focus {
   outline: none;
 }
 
-.InputAddOn-field:first-child,
-.InputAddOn-item:first-child {
+.InputAddOn-field_contact:first-child,
+.InputAddOn-item_contact:first-child {
   border-radius: 25px 0 0 25px;
   width: 50%;
 }
-.InputAddOn-field:last-child,
-.InputAddOn-item:last-child {
+.InputAddOn-field_contact:last-child,
+.InputAddOn-item_contact:last-child {
   border-radius: 0 25px 25px 0;
 }
 
