@@ -7,11 +7,12 @@
     <title>Welcom to Sumin's Site</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="tools.css">
-    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/tools.css">
+    <link rel="stylesheet" href="../css/project.css">
+    <link rel="stylesheet" href="../css/profile.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
-    <script src="clock.js"></script>
+    <script src="../js/clock.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -55,7 +56,7 @@
         <div class="tools_space">
             <div class=" tools_header">
                 <div class="tools_title">
-                    <b>CONTACT</b>
+                    <b>PROFILE</b>
                 </div>
                 <div><!--empty--></div>
                 <div class=" tools_icons">
@@ -65,22 +66,83 @@
                 </div>
             </div>
             
-            <div class=" contact_arrange">
-                <div class="contact_title">Contact Me!</div>
-           
-                <div class="InputAddOn mb-3" >
-                    <input class="InputAddOn-field" value="sumin_kim_dev@gmail.com">
-                    <a class="InputAddOn-item" href="mailto:sumin_kim_dev@gmail.com"> <i class="fas fa-envelope"></i></a>
+            <div class="project_body">
+                <div class="top_background">
+                    <div class="top_background_size"></div>
                 </div>
 
-                <div class="sns_logos"  id="floating">
-                    <a href="https://github.com/5Suminsss2"><img src="./img/sns_logos/github_logo.png" alt=""></a>
-                    <a href="https://notion.so/kp"><img src="./img/sns_logos/notion_logo.png" alt=""></a>
-                    <a href="https://www.instagram.com/sunnyday_zxy/?hl=ko"><img src="./img/sns_logos/instagram_logo.png" alt=""></a>
-                    <a href="https://www.twitter.com"><img src="./img/sns_logos/twitter_logo.png" alt=""></a>
+                <!--img를 중앙으로 올리려면(일반 body말고 어떤 div안에서) div로 감싸서 텅빈 div안에서 중간으로 위치할 수 있게 할 수 있음 div 하나만 씌우면 절대 안됨-->
+                <div>
+                    <div style="text-align: center; margin-top: -85px;">
+                        <img class= "profile_img" src="../img/moutain.png" alt="">
+                    </div>
+                    
                 </div>
-            </div>
+                
+                <div class="profile_image">
+                    <div class="bottom_background">
+
+                    
+                        <div class="card shadow m-3" id="floating">
+                            <div class="row">
+                                <div class="col-2" style="font-size: 30px;  margin-top: 5px;">📝</div>
+                                <div class="col-10">
+                                    <h4>한양대학교 ERICA</h4>
+                                    ICT융합학부 컬쳐테크놀로지 전공
+                                </div>
+                            </div>
+                        </div>
+        
             
+                        <div class="card shadow m-3" id="floating">
+                            <div class="row">
+                                <div class="col-2" style="font-size: 30px; margin-top: 5px;">😎</div>
+                                <div class="col-10">
+                                    <h4>Merits</h4>
+                                    <p>끈기있게 에러를 해치우는 진드기</p>
+                                </div>
+                            </div>
+                        </div>
+                    
+                </div>    
+    
+                <div class="bottom_background2">  
+                    <div class="card shadow m-3" id="floating">
+                        <div class="row">
+                            <div class="col-2" style="font-size: 40px;  margin-top: 7px;">🛠</div>
+                            <div class="col-10">
+                                <h4>Fullstack Developer</h4>
+                            <p>풀스택 개발자를 꿈꾸며 끊임없이 전진하는 김수민입니다.</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="card shadow m-3" id="floating">
+                        <div class="row">
+                            <div class="col-2" style="font-size: 30px; margin-top: 10px;">💖</div>
+                            <div class="col-10">
+                                <h4>Loves</h4>
+                                음악 듣기, 글쓰기, 게임 등 좋아하는 것이 많아 행복한 개발자입니다                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="rocket_outline mt-3">
+                    <div style="text-align: center; ">
+                        <img class= "rocket_img" src="../img/rocket.png" alt="">
+                    </div>
+                    
+                </div>
+
+            </div>
+                
+                
+
+                
+                
         </div>
             
     </div>

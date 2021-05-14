@@ -3,7 +3,7 @@ p {
 }
 
 .top_background {
-  background-image: url(./img/dark\ sky.jpg);
+  background-image: url(../img/dark\ sky.jpg);
   border-bottom-left-radius: 20%;
   border-bottom-right-radius: 20%;
 }

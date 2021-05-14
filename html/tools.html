@@ -7,15 +7,12 @@
     <title>Welcom to Sumin's Site</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="tools.css">
-    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/tools.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
-    <script src="clock.js"></script>
+    <script src="../js/clock.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
 
 </head>
 <body onload="showClock()">
@@ -23,14 +20,14 @@
     <div class="tool_icon_arrange">
         <div class="logos">
             <div class="logo_size">
-                <a href="./profile.html" class="logos_center">
+                <a href="" class="logos_center">
                     <i class="far fa-id-card md-60 profile_style"></i>
                     <p class="profile_center">PROFILE</p>
                 </a>
             </div>
                 
             <div class="logo_size">
-                <a href="./project.html" class="logos_center">
+                <a href="" class="logos_center">
                     <i class="fab fa-fort-awesome-alt md-60 project_style"></i>
                     <p>PROJECTS</p>
                 </a>
@@ -55,7 +52,7 @@
         <div class="tools_space">
             <div class=" tools_header">
                 <div class="tools_title">
-                    <b>PROJECT</b>
+                    <b>TOOLS</b>
                 </div>
                 <div><!--empty--></div>
                 <div class=" tools_icons">
@@ -65,63 +62,60 @@
                 </div>
             </div>
             
-            <div class="project_body">
-                <div class="project_title">My project</div>
-                <hr>
-
-                <div class="row row-cols-1 row-cols-md-2 g-4 mt-1 project_image">
-                    <div class="col">
-                        <div class="card">
-                            <a href="">
-                                <img src="./img//moutain.png" class="card-img-top card_img" alt="...">
-                            </a>
-                            <div class="card-body">
-                                <h5 class="card-title">Whale to the muzik</h5>
-                                <p class="card-text">💿 Music Streaming Service </p>
-                                <p class="card-text">🔨 HTML, CSS, JS, Node.js</p>
-                            </div>            
-                        </div>
-                    </div>
+            <div class="tools_body">
+                <div id="carouselExampleIndicators" class="carousel slide tools_height" data-bs-ride="carousel">
                     
-                    <div class="col">
-                        <div class="card">
-                            <a href="">
-                                <img src="./img/milkyway.jpg" class="card-img-top card_img" alt="...">
-                            </a>
-                            <div class="card-body">
-                                <h5 class="card-title">Pig Diary</h5>
-                                <p class="card-text">📝 To do list Site</p>
-                                <p class="card-text">🔨 with HTML, CSS, JS</p>
-                            </div>            
+                    <div class="carousel-inner img_position">
+                        <div class="carousel-item active">
+                            <h1><b>CSS</b></h1>
+                            <img src="../img/tool_logos/css_logo.png"  class="d-block " alt="...">
+                            
+                        </div>
+                        
+                        <div class="carousel-item "">
+                            <h1><b>JS</b></h1>
+                            <img src="../img/tool_logos/js_logo.png"  class="d-block " alt="...">
+                        </div>
+                        <div class="carousel-item ">
+                            <h1><b>HTML</b></h1>
+                            <img src="../img/tool_logos/html_logo.png"   class="d-block " alt="..." >
                         </div>
                     </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                    
 
-                    <div class="col">
-                        <div class="card">
-                            <a href="">
-                                <img src="./img/background.jpg" class="card-img-top card_img" alt="...">
-                            </a>
-                            <div class="card-body">
-                                <h5 class="card-title">Wetube</h5>
-                                <p class="card-text">📺 Youtube Clone Coding</p>
-                                <p class="card-text">🔨 HTML, CSS, JS, Node.js</p>
+                    
 
-                            </div>            
-                        </div>
-                    </div>
+                </div>
+                
+                <div class="dots">
+                    <i class="far fa-comment-dots"></i>
+                </div>
 
-                    <div class="col">
-                        <div class="card">
-                            <a href="">
-                                <img src="./img/dark sky.jpg" class="card-img-top card_img" alt="...">
-                            </a>
-                            <div class="card-body">
-                                <h5 class="card-title">Random Movie</h5>
-                                <p class="card-text">📽️ Recommending random movies</p>
-                                <p class="card-text">🔨 HTML, CSS, JS, Node.js</p>
-                            </div>            
-                        </div>
-                    </div>
+                <div class="chat" >
+                    
+                        <img src="../img/tool_logos/그림14.png" alt="">
+                
+                    
+                        <img src="../img/tool_logos/그림15.png" alt="">
+                    
+                        <img src="../img/tool_logos/그림16.png" alt="">
+                    
+                </div>
+                
+                <div class="back_to_main">
+                    <a href="./main.html">
+                        <button type="button" class="btn btn-outline-warning btn-lg">Back to Main</button>
+
+                    </a>
+                    
                 </div>
                 
             </div>
