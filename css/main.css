@@ -2,7 +2,6 @@ html,
 body {
   height: 100%;
   margin: 0;
-  background-image: url("../img/milkyway.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -50,6 +49,10 @@ footer {
   height: 640px;
 }
 
+.icon_font {
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+}
+
 .logo_name {
   margin-left: 10px;
 }
@@ -80,7 +83,7 @@ footer {
 }
 
 .project_style {
-  color: #82c91e;
+  color: #eed029;
   margin-left: 5px;
 }
 
