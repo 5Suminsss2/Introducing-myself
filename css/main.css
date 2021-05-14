@@ -58,6 +58,7 @@ footer {
 }
 .logo_size {
   /* width: 60px; */
+  margin-bottom: 15px;
 }
 .start_button {
   width: 30px;
@@ -159,6 +160,9 @@ footer {
     height: 90vh;
     padding-left: 0;
     z-index: 1;
+  }
+  .logo_size {
+    display: fixed;
   }
 
   .InputAddOn-field,
