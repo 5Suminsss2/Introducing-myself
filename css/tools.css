@@ -169,6 +169,12 @@ h1 {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .tools_space {
+    height: 90%;
+  }
+}
+
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   height: 50px;
