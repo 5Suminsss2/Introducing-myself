@@ -78,7 +78,7 @@ footer {
 }
 
 .profile_style {
-  color: #be4bdb;
+  color: #c929df;
 }
 
 .profile_center {
@@ -87,12 +87,12 @@ footer {
 
 .project_style {
   color: #eed029;
-  margin-left: 5px;
+  margin-left: 10px;
 }
 
 .tools_style {
   color: #e96228;
-  margin-left: 10px;
+  margin-left: 12px;
 }
 
 .tools_center {
