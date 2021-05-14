@@ -58,7 +58,6 @@ footer {
 }
 .logo_size {
   /* width: 60px; */
-  margin-bottom: 30px;
 }
 .start_button {
   width: 30px;
@@ -161,9 +160,6 @@ footer {
     padding-left: 0;
     z-index: 1;
   }
-  .logo_size {
-    display: fixed;
-  }
 
   .InputAddOn-field,
   .InputAddOn-item {
@@ -171,5 +167,12 @@ footer {
   }
   .InputAddOn-field {
     width: 30vw;
+  }
+}
+
+@media screen and (max-width: 336px) {
+  .logo_size {
+    display: fixed;
+    margin-bottom: 2em;
   }
 }
