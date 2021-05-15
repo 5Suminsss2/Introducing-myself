@@ -149,6 +149,54 @@ footer {
   display: flex;
 }
 
+/*여기서부터 텍스트타이핑*/
+.text_typing {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+#dynamic {
+  position: relative;
+  /*p태그는 부모요소의 크기를 본받기에 커서가 줄어들기 위해서는 dynamic의 요소를 바꿔줘야한다*/
+  display: inline-block; /*텍스트가 줄어드는 만큼 크기도 같이 줄어들을 수 있다*/
+}
+
+#dynamic::after {
+  /*dynamic을 가진 요소에 after라는 가상요소 생성*/
+  content: "";
+  display: blcok;
+  position: absolute; /*항상 커서가 오른쪽에 위치하게 설정*/
+  top: 0;
+  right: -10px; /*커서에 약간의 여유 공간 두기*/
+  width: 4px;
+  height: 100%; /*p태그 크기만큼 설정*/
+  background-color: white;
+}
+
+#dynamic.active::after {
+  display: none; /*dynamic에 active가 활성화되면 잠깐 숨겨지게*/
+}
+
+h1 {
+  font-weight: 200;
+  margin: 0.4em 0;
+
+  font-family: "Black Han Sans", sans-serif;
+
+  font-size: 3.5em;
+}
+.typing_first {
+  font-family: "Black Han Sans", sans-serif;
+  font-size: 22px;
+}
+
+h2 {
+  font-family: "Black Han Sans", sans-serif;
+}
+
 @media screen and (max-width: 768px) {
   .logos {
     display: flex;
@@ -166,5 +214,11 @@ footer {
   }
   .InputAddOn-field {
     width: 30vw;
+  }
+  h1 {
+    font-size: 2.5em;
+  }
+  h2 {
+    font-size: 22px;
   }
 }
