@@ -2,7 +2,7 @@ let target= document.querySelector("#dynamic");
 
 
 function randomString(){
-    let stringArr = ["FullStack_Dev","Imaginative","Diligent","Nonquitter"]
+    let stringArr = ["FE_Dev","Imaginative","Diligent","Nonquitter"]
 
     let selectString = stringArr[Math.floor(Math.random()*stringArr.length)];
     let selectStringArr = selectString.split(""); /* 하나씩 쪼개서 배열에 넣기 */
